@@ -2269,7 +2269,7 @@ li.menu-item .nav-label.sale-label::before{
 .wrap-breadcrumb ul{
     padding: 0;
     text-align: left;
-    margin: 35px 0;
+    margin: 20px 20px;
 }
 .wrap-breadcrumb ul li{
     display: inline-block;
@@ -2279,7 +2279,7 @@ li.menu-item .nav-label.sale-label::before{
 .wrap-breadcrumb ul li:not(:last-child)::after{
     content: '/';
     font-size: 13px;
-    color: #222222;
+    color: #15161D;
     padding-left: 11px;
     padding-right: 11px;
 }
@@ -2290,7 +2290,7 @@ li.menu-item .nav-label.sale-label::before{
 }
 .wrap-breadcrumb ul span{
     font-size: 13px;
-    color: #222222;
+    color: #15161D;
     text-transform: uppercase;
 }
 .wrap-shop-control{
@@ -3123,6 +3123,8 @@ vertical-align: top;
 .wrap-login-item .form-item .btn{
     font-size: 14px;
     color: #ffffff;
+    background-color: #D10024;
+    width: 100%;
     line-height: 19px;
     border: none;
     border-radius: 0;
@@ -3136,12 +3138,12 @@ vertical-align: top;
     transition: background 0.3s ease 0s;
 }
 .wrap-login-item .form-item .btn:hover{
-    background: #222222;
+    background: #15161D;
 }
 .wrap-login-item .form-item input[type="checkbox"] + span{
     font-size: 13px;
     line-height: 19px;
-    color: #666666;
+    color: #15161D;
     position: relative;
 }
 .wrap-login-item .form-item input[type="checkbox"] + span::before{
@@ -3172,7 +3174,7 @@ vertical-align: top;
 .wrap-login-item .form-item .link-function {
     font-size: 13px;
     line-height: 19px;
-    color: #666666;
+    color: #15161D;
     float: right;
     padding: 1px 29px 0 0;
 }
